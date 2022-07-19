@@ -74,3 +74,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+$color1: #FFFAFA;
+$color2: #282828;
+$color3: #FFFFFF;
+$color4: #C4C4C4;
+
+body{
+  width: 1920px;
+  height: 5210px;
+  margin: 0 auto;
+  background-color: $color1;
+}
