@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /*Обнуление*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -74,8 +75,38 @@ h1, h2, h3, h4, h5, h6 {
 
 /*--------------------*/
 body {
-  width: 1920px;
-  height: 5210px;
   margin: 0 auto;
   background-color: #FFFAFA;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  margin-left: 355px;
+}
+
+.header .header-container {
+  border: 1px solid red;
+  width: 1254px;
+  height: 941px;
+}
+
+.header .header-top-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border: 2px solid blue;
+}
+
+.header .navigation__logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.header .top-main__title {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.header .top-main__title span {
+  color: #ff4c60;
 }

@@ -74,14 +74,110 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;800&display=swap');
+
 $color1: #FFFAFA;
 $color2: #282828;
 $color3: #FFFFFF;
 $color4: #C4C4C4;
+$color5: #ff4c60;
 
 body{
-  width: 1920px;
-  height: 5210px;
   margin: 0 auto;
   background-color: $color1;
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  margin-left: 355px;
+
+  &__row {
+  }
+
+  .header-container {
+    border: 1px solid red;
+    width: 1254px;
+    height: 941px;
+  }
+  .header-top {
+  }
+  .header-top-navigation {
+    display: flex;
+    border: 2px solid blue;
+  }
+  .navigation {
+
+    &__body {
+    }
+
+    &__logo {
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    &__media {
+    }
+
+    &__burger-menu {
+    }
+  }
+  .burger-menu {
+  }
+  .header-top-main {
+  }
+  .top-main {
+
+    &__body {
+    }
+
+    &__title {
+      font-size: 48px;
+      font-weight: bold;
+
+      span{
+        color: $color5;
+      }
+    }
+
+    &__subtitle {
+    }
+
+    &__image {
+    }
+  }
+  .header-top-btn {
+  }
+  .top-btn {
+
+    &__body {
+    }
+
+    &__button {
+    }
+
+    &__icon {
+    }
+
+    &__text {
+    }
+  }
+  .header-newsletter {
+  }
+  .information {
+
+    &__body {
+    }
+
+    &__title {
+    }
+
+    &__subtitle {
+    }
+
+    &__mail {
+    }
+
+    &__btn {
+    }
+  }
 }
