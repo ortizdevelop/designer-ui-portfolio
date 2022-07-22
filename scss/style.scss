@@ -298,8 +298,7 @@ body{
 
 .content-main-head {
   width: 1177px;
-  height: 382px;
-  border: 1px solid red;
+  height: 395px;
   margin-top: 150px;
   margin-left: 355px;
 
@@ -311,13 +310,62 @@ body{
         display: flex;
       }
 
+      &__skills{
+        margin: 43px 0 0 71px;
+      }
+
       &__image {
       }
 
       &__titles {
+        margin-bottom: 36px;
+        
+        h1{
+          width:230px;
+          font-size: 30px;
+          font-weight: bold;
+          color: $color2;
+          line-height: 1.3;
+          text-align: center;
+          border-radius: 8px;
+          transform: translateX(-13.5px);
+
+          &:hover{
+            background-color: $color5;
+            color: $color1;
+            transition: 0.5s;
+          }
+        }
+
+        p{
+          width: 550px;
+          font-size: 13px;
+          color: $color2;
+        }
       }
 
       &__stats {
+        margin-bottom: 60px;
+        transform: translateX(-5px);
+        width: 630px;
+
+        ul{
+          width: 650px;
+          li{
+            display: inline-block;
+            padding: 3px;
+            font-size: 16px;
+            color: $color2;
+            justify-content: space-around;
+            margin-right: 43px;
+            line-height: 1.5;
+
+            span{
+              font-weight: bold;
+              font-size: 26px;
+            }
+          }
+        }
       }
 
       &__resume {
@@ -327,17 +375,40 @@ body{
   }
   .statistic {
   }
+
+  .stat-li{
+    border-radius: 8px;
+
+    &:hover{
+      background-color: $color5;
+      color: $color1;
+      box-shadow: 0 5px 1px $color4;
+      transition: 0.5s;
+    }
+  }
   .ui-stat {
-  }
-  .stat-title {
-  }
-  .stat-percent {
+    text-align: center;
+    width: 121px;
+    height: 63px;
+    flex-grow: 0;
   }
   .web-stat {
+    text-align: center;
+    width: 121px;
+    height: 63px;
+    flex-grow: 0;
   }
   .graphic-stat {
+    text-align: center;
+    width: 101px;
+    height: 63px;
+    flex-grow: 0;
   }
   .app-stat {
+    text-align: center;
+    width: 121px;
+    height: 63px;
+    flex-grow: 0;
   }
   .resume {
 
@@ -345,9 +416,11 @@ body{
       }
 
       &__text {
+        color: $color5;
       }
 
       &__line-img {
+        transform: translate(150px,-5.5px);
       }
   }
   .content-main-services {
@@ -356,7 +429,6 @@ body{
   .information {
     width: 1177px;
     height: 192px;
-    border: 1px solid red;
     background-color: #f9f3f5;
   }
   .services {
