@@ -523,6 +523,7 @@ body {
   height: 98px;
   padding-left: 70px;
   color: #FFFAFA;
+  font-size: 20px;
 }
 
 .content-main-head .services__service-search input::-webkit-input-placeholder {
