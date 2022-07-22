@@ -550,3 +550,118 @@ body{
   .button {
   }
 }
+
+.content-main-middle {
+
+  &__row {
+    transform: translateY(338px);
+  }
+
+  .container {
+  }
+  .middle-main {
+    margin-top: 182px;
+    margin-left: 375px;
+
+    &__row {
+      display: flex;
+    }
+
+    &__icons {
+      width: 560px;
+      height: 340px;
+
+      ul{
+        display: flex;
+        flex-grow: 0;
+        flex-wrap: wrap;
+      }
+    }
+
+    &__img {
+  
+    }
+  }
+
+  .middle-main {
+
+		&__img {
+      margin-left: 190px;
+		}
+}
+.computer {
+}
+
+
+  .middle-buttons {
+  }
+  .computer {
+  }
+  .middle-form {
+    margin-top: 150px;
+    margin-left: 375px;
+
+    &__row {
+      display: flex;
+      width: 1170px;
+      height: 192px;
+      background-color: #f9f3f5;
+      justify-content: space-between;
+    }
+
+    &__titles {
+    }
+
+    &__logos {
+      margin-top: 69px;
+    }
+  }
+.logos {
+
+		&__body {
+      display: flex;
+      width: 562px;
+      height: 49px;
+
+      img{
+        margin-right: 61px;
+      }
+		}
+}
+.airbnb {
+}
+.samsung {
+}
+.amazon {
+}
+
+  .title {
+    margin-top: 45px;
+    margin-left: 141px;
+  }
+  .top-title {
+    width: 200px;
+    height: 50px;
+    padding-top: 8px;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    color: #282828;
+    margin-left: 30px;
+    border-radius: 8px;
+
+    &:hover{
+      background-color: $color5;
+      color: $color1;
+      transition: 0.5s;
+    }
+  }
+  .subtitle {
+    width: 265px;
+    height: 52px;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #c4c4c4;
+  }
+}

@@ -590,3 +590,105 @@ body {
   background: url("/assets/img/content-main/arrows.png") no-repeat;
   background-size: cover;
 }
+
+.content-main-middle__row {
+  -webkit-transform: translateY(338px);
+          transform: translateY(338px);
+}
+
+.content-main-middle .middle-main {
+  margin-top: 182px;
+  margin-left: 375px;
+}
+
+.content-main-middle .middle-main__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.content-main-middle .middle-main__icons {
+  width: 560px;
+  height: 340px;
+}
+
+.content-main-middle .middle-main__icons ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.content-main-middle .middle-main__img {
+  margin-left: 190px;
+}
+
+.content-main-middle .middle-form {
+  margin-top: 150px;
+  margin-left: 375px;
+}
+
+.content-main-middle .middle-form__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1170px;
+  height: 192px;
+  background-color: #f9f3f5;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.content-main-middle .middle-form__logos {
+  margin-top: 69px;
+}
+
+.content-main-middle .logos__body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 562px;
+  height: 49px;
+}
+
+.content-main-middle .logos__body img {
+  margin-right: 61px;
+}
+
+.content-main-middle .title {
+  margin-top: 45px;
+  margin-left: 141px;
+}
+
+.content-main-middle .top-title {
+  width: 200px;
+  height: 50px;
+  padding-top: 8px;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  color: #282828;
+  margin-left: 30px;
+  border-radius: 8px;
+}
+
+.content-main-middle .top-title:hover {
+  background-color: #ff4c60;
+  color: #FFFAFA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-main-middle .subtitle {
+  width: 265px;
+  height: 52px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #c4c4c4;
+}
