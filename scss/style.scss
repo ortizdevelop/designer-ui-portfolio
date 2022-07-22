@@ -730,20 +730,59 @@ body{
   }
   .middle-social-media {
 
-      &__row {
-        border: $border1;
+		&__row {
+      display: flex;
+      justify-content: space-between;
       margin: 150px 375px 0px 375px;
-      }
+      width: 1170px;
+      height: 192px;
+      background-color: #f9f3f5;
+		}
 
-      &__titles {
-      }
+		&__titles {
+      width: 280px;
+      height: 96px;
+      margin: 58px 0px 38px 162px;
+		}
 
-      &__icons {
-      }
+		&__icons {
+		}
   }
-  .icons {
+  .container {
+  }
+  .media-main-title {
+    width: 205px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #000;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+
+    &:hover{
+      background-color: $color5;
+      color: $color1;
+      transition: 0.5s;
+    }
+  }
+  .media-subtitle {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #c4c4c4;
+  }
+  .media-icons {
 
       &__body {
+        margin: 67px 8px 65px 0;
+        
+        img{
+          padding-left: 87px;
+        }
       }
-  }
+  } 
 }
