@@ -914,7 +914,6 @@ body {
 }
 
 .content-bottom .with-us__titles {
-  border: 1px solid red;
   -webkit-transform: translate(27px, 97px);
           transform: translate(27px, 97px);
   width: 540px;
@@ -992,6 +991,7 @@ body {
 }
 
 .content-bottom .form__main-title p {
+  margin-top: 14px;
   font-size: 30px;
   font-weight: 700;
   color: #282828;

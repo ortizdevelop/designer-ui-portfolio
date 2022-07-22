@@ -899,7 +899,6 @@ body{
       }
 
       &__titles {
-        border: $border1;
        transform: translate(27px, 97px);
         width: 540px;
         height: 125px;
@@ -983,6 +982,7 @@ body{
       &__main-title {
 
         p{
+          margin-top: 14px;
           font-size: 30px;
           font-weight: 700;
           color: #282828;
