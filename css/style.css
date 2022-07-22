@@ -1124,7 +1124,8 @@ body {
 .footer .ortiz-develop span {
   font-size: 20px;
   line-height: 26px;
-  color: #282828;
+  color: #ff4c60;
+  text-decoration: underline;
 }
 
 .footer .ortiz-develop:hover {
@@ -1140,6 +1141,7 @@ body {
   color: #FFFAFA;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  text-decoration: none;
 }
 
 .footer .ortiz-develop:active {

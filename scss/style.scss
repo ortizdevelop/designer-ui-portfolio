@@ -1102,7 +1102,8 @@ body{
     span{
       font-size: 20px;
       line-height: 26px;
-      color: $color2;
+      color: $color5;
+      text-decoration: underline;
     }
 
     &:hover{
@@ -1114,6 +1115,7 @@ body{
       span{
         color: $color1;
         transition: 0.3s;
+        text-decoration: none;
       }
     }
 
