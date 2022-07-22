@@ -448,3 +448,145 @@ body {
   display: -ms-flexbox;
   display: flex;
 }
+
+.content-main-head .services__title {
+  text-align: center;
+  margin-left: 88px;
+  margin-top: 45px;
+}
+
+.content-main-head .services__top-title-text {
+  width: 179px;
+  height: 43px;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transform: translateX(60px);
+          transform: translateX(60px);
+  color: #282828;
+  border-radius: 8px;
+}
+
+.content-main-head .services__top-title-text p {
+  padding-top: 5px;
+}
+
+.content-main-head .services__top-title-text:hover {
+  background-color: #ff4c60;
+  color: #FFFAFA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-main-head .services__subtitle-text {
+  width: 291px;
+  height: 52px;
+  color: #C4C4C4;
+  margin-top: 6px;
+}
+
+.content-main-head .services__service-search {
+  position: relative;
+  margin-top: 47px;
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+          box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  color: #FFFAFA;
+  -webkit-transform: translateX(100px);
+          transform: translateX(100px);
+}
+
+.content-main-head .services__service-search::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 505px;
+  margin: auto 0;
+  width: 15px;
+  height: 15px;
+  background: url("/assets/img/content-main/lupa.png");
+  background-size: cover;
+}
+
+.content-main-head .services__service-search input {
+  width: 570px;
+  height: 98px;
+  padding-left: 70px;
+  color: #FFFAFA;
+}
+
+.content-main-head .services__service-search input::-webkit-input-placeholder {
+  color: #C4C4C4;
+}
+
+.content-main-head .services__service-search input:-ms-input-placeholder {
+  color: #C4C4C4;
+}
+
+.content-main-head .services__service-search input::-ms-input-placeholder {
+  color: #C4C4C4;
+}
+
+.content-main-head .services__service-search input::placeholder {
+  color: #C4C4C4;
+}
+
+.content-main-head .services__service-search input:focus {
+  background-color: #ff4c60;
+  border: 3px solid #FFFAFA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-main-head .services__service-search input:focus::-webkit-input-placeholder {
+  color: #FFFAFA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-main-head .services__service-search input:focus:-ms-input-placeholder {
+  color: #FFFAFA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-main-head .services__service-search input:focus::-ms-input-placeholder {
+  color: #FFFAFA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-main-head .services__service-search input:focus::placeholder {
+  color: #FFFAFA;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.content-main-head .services__btn {
+  background-color: #FFFFFF;
+  width: 110px;
+  text-align: center;
+  height: 25px;
+  padding-top: 5px;
+  padding-right: 10px;
+  border-radius: 8px;
+  -webkit-transform: translate(-30px, 80px);
+          transform: translate(-30px, 80px);
+}
+
+.content-main-head .services__btn span {
+  color: #282828;
+}
+
+.content-main-head .services__btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 1px;
+  right: 5px;
+  margin: auto 0;
+  width: 10px;
+  height: 10px;
+  background: url("/assets/img/content-main/arrows.png") no-repeat;
+  background-size: cover;
+}
