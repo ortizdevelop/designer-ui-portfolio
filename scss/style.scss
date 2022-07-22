@@ -82,6 +82,8 @@ $color3: #FFFFFF;
 $color4: #C4C4C4;
 $color5: #ff4c60;
 
+$border1: 1px solid red;
+
 body{
   margin: 0 auto;
   background-color: $color1;
@@ -663,5 +665,85 @@ body{
     line-height: 26px;
     text-align: center;
     color: #c4c4c4;
+  }
+  .middle-blog {
+
+		&__row {
+      display: flex;
+      margin: 146px 375px 0px 375px;
+		}
+
+		&__image {
+		}
+
+		&__info {
+      margin-left: 60px;
+		}
+
+		&__text {
+      margin-bottom: 26px;
+      font-size: 16px;
+      line-height: 26px;
+      color: #c4c4c4;
+		}
+
+		&__link {
+      
+      span{
+        font-size: 16px;
+        line-height: 26px;
+        color: #ff4c60;
+      }
+
+      img{
+        transform: translate(15px,12.5px);
+      }
+		}
+}
+  .container {
+  }
+  .title {
+  }
+  .middle-main-title {
+    margin-bottom: 34px;
+    font-size: 30px;
+    width: 180px;
+    height: 45px;
+    text-align: center;
+    padding: 6px;
+    font-weight: 700;
+    line-height: 26px;
+    color: #282828;
+    border-radius: 8px;
+
+    &:hover{
+      background-color: $color5;
+      color: $color1;
+      transition: 0.5s;
+    }
+  }
+  .middle-subtitle {
+    margin-bottom: 15px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #282828;
+  }
+  .middle-social-media {
+
+      &__row {
+        border: $border1;
+      margin: 150px 375px 0px 375px;
+      }
+
+      &__titles {
+      }
+
+      &__icons {
+      }
+  }
+  .icons {
+
+      &__body {
+      }
   }
 }
