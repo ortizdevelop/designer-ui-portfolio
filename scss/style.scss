@@ -295,3 +295,95 @@ body{
     }
   }
 }
+
+.content-main-head {
+  width: 1177px;
+  height: 382px;
+  border: 1px solid red;
+  margin-top: 150px;
+  margin-left: 355px;
+
+  .content-main-container {
+  }
+  .content-main {
+
+      &__row {
+        display: flex;
+      }
+
+      &__image {
+      }
+
+      &__titles {
+      }
+
+      &__stats {
+      }
+
+      &__resume {
+      }
+  }
+  .container {
+  }
+  .statistic {
+  }
+  .ui-stat {
+  }
+  .stat-title {
+  }
+  .stat-percent {
+  }
+  .web-stat {
+  }
+  .graphic-stat {
+  }
+  .app-stat {
+  }
+  .resume {
+
+      &__body {
+      }
+
+      &__text {
+      }
+
+      &__line-img {
+      }
+  }
+  .content-main-services {
+    margin-top: 150px;
+  }
+  .information {
+    width: 1177px;
+    height: 192px;
+    border: 1px solid red;
+    background-color: #f9f3f5;
+  }
+  .services {
+
+      &__row {
+        display: flex;
+      }
+
+      &__title {
+      }
+
+      &__top-title-text {
+      }
+
+      &__subtitle-text {
+      }
+
+      &__service-search {
+      }
+
+      &__btn {
+      }
+  }
+  .title {
+  }
+  .mail {
+  }
+  .button {
+  }
+}
