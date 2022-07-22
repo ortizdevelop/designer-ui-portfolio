@@ -113,8 +113,17 @@ body{
     }
 
     &__logo {
+      text-align: center;
+      padding: 3px;
       font-size: 30px;
       font-weight: bold;
+      border-radius: 8px;
+
+      &:hover{
+        background-color: $color5;
+        color: $color1;
+        transition: 0.3s;
+      }
     }
 
     &__media {
@@ -862,4 +871,255 @@ body{
   .mask-3 {
     transform: translate(60px,147px);
   }
+    .bottom-contact {
+
+      &__row {
+        display: flex;
+        transform: translateY(130px);
+        margin-top: 135px;
+        width: 1170px;
+        height: 652px;
+      }
+
+      &__with-us {
+      }
+
+      &__form {
+      }
+  }
+  .container {
+  }
+  .with-us {
+
+      &__row {
+        margin-top: 90px;
+        width: 600px;
+        height: 522px;
+        background-color: #f9f3f5;
+      }
+
+      &__titles {
+        margin: 97px 33px 0 27px;
+        width: 540px;
+        height: 125px;
+      }
+
+      &__top-text {
+        font-size: 30px;
+        font-weight: 700;
+        color: #282828;
+        margin-bottom: 32px;
+      }
+
+      &__bottom-text {
+        font-size: 16px;
+        font-weight: 700;
+        color: #282828;
+      }
+
+      &__contacts {
+      }
+
+      &__body {
+      }
+  }
+  .with-us-list {
+      margin: 0px 129px 0px 101px;
+      display: flex;
+      flex-grow: 0;
+      width: 412px;
+      height: 137px;
+
+      img{
+        margin-bottom: 15px;
+      }
+
+      li{
+      }
+
+      span{
+        
+      }
+
+      &__mail {
+        width: 228px;
+        height: 136px;
+        text-align: center;
+        transform: translateX(-80px);
+        
+        p{
+          font-size: 16px;
+          color: #282828;
+          margin-bottom: 13px;
+        }
+      }
+
+      &__number {
+        width: 197px;
+        height: 137px;
+        text-align: center;
+        transform: translateX(30px);
+
+        p{
+          font-size: 16px;
+          color: #282828;
+          margin-bottom: 13px;
+        }
+      }
+
+  }
+  .form {
+
+      &__row {
+        display: flex;
+        width: 570px;
+        height: 652px;
+        background-color: #fffafa;
+        box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.1);
+      }
+
+      &__main-title {
+
+        p{
+          font-size: 30px;
+          font-weight: 700;
+          color: #282828;
+          margin-left: 182px;
+          margin-bottom: 24px;
+        }
+
+      }
+
+      &__lists {
+        li{
+          margin-bottom: 31px;
+
+          input{
+            margin-left: 43px;
+
+            &:focus{
+              background-color: $color5;
+              color: $color1;
+              transition: 0.3s;
+
+              &::placeholder{
+                color: $color1;
+                transition: 0.3s;
+              }
+            }
+          }
+        }
+      }
+  }
+  .list1 {
+    input{
+      width: 227px;
+      height: 61px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+      padding-left: 16px;
+    }
+  }
+  .list2 {
+    input{
+      width: 427px;
+      height: 61px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+      padding-left: 16px;
+    }
+  }
+  .list3 {
+    input{
+      width: 227px;
+      height: 61px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+      padding-left: 16px;
+    }
+  }
+  .list4 {
+    input{
+      width: 488px;
+      height: 167px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+      padding-left: 16px;
+    }
+  }
+  .list5 {
+    input{
+      width: 227px;
+      height: 61px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+      padding-left: 16px;
+    }
+  }
+}
+
+.footer {
+
+  &__row {
+    border: $border1;
+    margin-top: 38px;
+    margin-left: 650px;
+    transform: translateY(1100px);
+    width: 500px;
+    height: 90px;
+    text-align: center;
+  }
+
+  .footer-container {
+  }
+  .footer-author {
+
+    a{
+      margin-bottom: 30px;
+    }
+  }
+  .made-by {
+    font-size: 16px;
+    margin-bottom: 15px;
+    width: 200px;
+    align-items: center;
+    margin-left: 150px;
+    line-height: 26px;
+    border-radius: 8px;
+    color: $color2;
+  }
+  .ortiz-develop {
+    border: $border1;
+    padding: 9px;
+    border-radius: 8px;
+    background-color: $color4;
+    
+    span{
+      font-size: 20px;
+      line-height: 26px;
+      color: $color2;
+    }
+
+    &:hover{
+      background-color: $color5;
+      transition: 0.3s;
+
+      span{
+        color: $color1;
+        transition: 0.3s;
+      }
+    }
+  }
+  .ortiz-develop-logo {
+    margin-top: 30px;
+    width: 250px;
+    margin-bottom: 50px;
+    background-color: #ff4c60;
+  }
+  
 }
