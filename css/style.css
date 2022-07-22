@@ -914,7 +914,9 @@ body {
 }
 
 .content-bottom .with-us__titles {
-  margin: 97px 33px 0 27px;
+  border: 1px solid red;
+  -webkit-transform: translate(27px, 97px);
+          transform: translate(27px, 97px);
   width: 540px;
   height: 125px;
 }
@@ -942,6 +944,8 @@ body {
           flex-grow: 0;
   width: 412px;
   height: 137px;
+  -webkit-transform: translateY(140px);
+          transform: translateY(140px);
 }
 
 .content-bottom .with-us-list img {

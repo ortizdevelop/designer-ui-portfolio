@@ -899,7 +899,8 @@ body{
       }
 
       &__titles {
-        margin: 97px 33px 0 27px;
+        border: $border1;
+       transform: translate(27px, 97px);
         width: 540px;
         height: 125px;
       }
@@ -929,6 +930,7 @@ body{
       flex-grow: 0;
       width: 412px;
       height: 137px;
+      transform: translateY(140px);
 
       img{
         margin-bottom: 15px;
