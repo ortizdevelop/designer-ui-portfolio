@@ -1104,13 +1104,21 @@ body{
     }
 
     &:hover{
+      position: relative;
       background-color: $color5;
+      box-shadow: 0 5px 1px $color4;
       transition: 0.3s;
 
       span{
         color: $color1;
         transition: 0.3s;
       }
+    }
+
+    &:active{
+      position: relative;
+      top: 3px;
+      box-shadow: 0 2px 1px $color4;
     }
   }
   .ortiz-develop-logo {

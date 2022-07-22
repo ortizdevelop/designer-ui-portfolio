@@ -1124,7 +1124,10 @@ body {
 }
 
 .footer .ortiz-develop:hover {
+  position: relative;
   background-color: #ff4c60;
+  -webkit-box-shadow: 0 5px 1px #C4C4C4;
+          box-shadow: 0 5px 1px #C4C4C4;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
@@ -1133,6 +1136,13 @@ body {
   color: #FFFAFA;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+}
+
+.footer .ortiz-develop:active {
+  position: relative;
+  top: 3px;
+  -webkit-box-shadow: 0 2px 1px #C4C4C4;
+          box-shadow: 0 2px 1px #C4C4C4;
 }
 
 .footer .ortiz-develop-logo {
