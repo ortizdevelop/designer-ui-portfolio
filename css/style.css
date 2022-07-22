@@ -1085,7 +1085,6 @@ body {
 }
 
 .footer__row {
-  border: 1px solid red;
   margin-top: 38px;
   margin-left: 650px;
   -webkit-transform: translateY(1100px);
@@ -1113,7 +1112,6 @@ body {
 }
 
 .footer .ortiz-develop {
-  border: 1px solid red;
   padding: 9px;
   border-radius: 8px;
   background-color: #C4C4C4;
